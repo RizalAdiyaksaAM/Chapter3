@@ -132,7 +132,7 @@ export const Challenge = () => {
 
   return (
     <div className=" w-full h-[75rem] bg-gradient-to-t from-gray-900 via-purple-900 to-violet-600 p-[2rem] ">
-      <div className="  flex justify-center flex-col mx-[28rem] h-[70rem] backdrop-blur-sm bg-white/30 rounded-lg">
+      <div className="  flex justify-center flex-col mx-[20rem] h-[70rem] backdrop-blur-sm bg-white/30 rounded-lg">
         <div className="flex justify-center grid justify-items-center flex-col  mb-[1rem] ">
           <h1 className="text-xl font-bold p-[1rem] text-white">Todo Search</h1>
           <div className="p-[0.7rem] border border-gray-300 rounded-[0.3rem] ">
@@ -199,7 +199,7 @@ export const Challenge = () => {
             </form>
           </div>
         </div>
-        <div className="flex  grid justify-items-center flex-col  mb-[1rem] ">
+        <div className="flex justify-center items-center  justify-items-center flex-col  mb-[1rem] ">
           <h1 className="text-xl font-bold p-[1rem] text-white">TodoList</h1>
           <div className="flex justify-between  space-x-6 mb-[2rem]">
             <button
